@@ -60,7 +60,7 @@ public class Regra4 extends Smart{
 		 if ( valor.toString().equals("--X*-OX*-XO") && jogada ) { valor.setLength(0); valor.append("Q-X*-QX*-XQ"); jogada = false;} //3,2,5
 
 		 if ( valor.toString().equals("X-X*-O-*X--") && jogada ) { valor.setLength(0); valor.append("X-X*QQQ*X--"); jogada = false;} //3,3,1
-		 if ( valor.toString().equals("-XX*OO-*X--") && jogada ) { valor.setLength(0); valor.append("-xX*QQQ*X--"); jogada = false;} //3,3,2
+		 if ( valor.toString().equals("-XX*OO-*X--") && jogada ) { valor.setLength(0); valor.append("-XX*QQQ*X--"); jogada = false;} //3,3,2
 		 if ( valor.toString().equals("--X*OOX*X--") && jogada ) { valor.setLength(0); valor.append("--X*OOX*X-O"); jogada = false;} //3,3,3*
 		 if ( valor.toString().equals("--X*OO-*XX-") && jogada ) { valor.setLength(0); valor.append("--X*QQQ*XX-"); jogada = false;} //3,3,4
 		 if ( valor.toString().equals("--X*OO-*X-X") && jogada ) { valor.setLength(0); valor.append("--X*QQQ*X-X"); jogada = false;} //3,3,5
